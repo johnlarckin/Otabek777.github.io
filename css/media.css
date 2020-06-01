@@ -1,0 +1,162 @@
+@media screen and (max-width: 1033px) {
+    .sport__right,.news__right,.content__right {
+        display: none;
+    }
+    
+    .content__left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .news__left {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    .str__bottom {
+        flex-wrap: wrap;
+    }
+
+    .str__bottom .str__top-block {
+        width: 48% !important;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 874px) {
+    .mobile-none {
+        display: none !important;
+    }
+
+    .mobile-block {
+        display: block !important;
+    }
+
+    .top-banner.mobile-block {
+        padding: 0;
+        margin: 0;
+    }
+
+    .top-banner.mobile-block img {
+        height: auto;
+    }
+
+    .content__bottom {
+        flex-wrap: wrap;
+    }
+
+    .content__bottom-block {
+        width: 48%;
+        margin-bottom: 16px;
+    }
+
+    .content__right {
+        width: 100%;
+    }
+
+    .content__right.mobile-block .banner-right {
+        width: 100%;
+        height: auto;
+        padding: 16px 0;
+    }
+
+    .content__right-soc {
+        margin: 20px 16px;
+    }
+
+    .news__left {
+        width: 100%;
+    }
+
+    .news__content-right {
+        width: 100%;
+    }
+
+    .sport .con {
+        padding: 0;
+    }
+
+    .sport .news__title,.sport  .news__content {
+        margin: 0px 16px;
+    }
+
+    .sport__banner {
+        margin: 16px 0;
+    }
+
+    .nav__center {
+        width: 40%;
+        order: -1;
+        justify-content: flex-start;
+    }
+
+    .content__main-box-text {
+        position: relative; top: 0; left: 0px;
+        color: #2a2a2a;
+        font-size: 14px;
+        margin: 16px 0;
+    }
+
+    .nav__left {
+        width: 55%;
+    }
+
+    .content {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .footer__box {
+        flex-wrap: wrap;
+    }
+
+    .footer__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__logo a {
+        width: 123px;
+        height: 30px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .footer__right {
+        width: 100%;
+    }
+
+    .footer__soc {
+        justify-content: center;
+        padding-top: 24px;
+        margin-bottom: 0;
+        border-top: 1px solid #ddd;
+    }
+
+    .footer__bottom {
+        border: 0;
+        margin: 0;
+        padding: 24px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content__main-box h1 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .str__top-block h6,.content__bottom-block h6 {
+        font-size: 11px !important;
+        line-height: 18px !important;
+    }
+
+    .video__title h3 {
+        font-size: 20px;
+    }
+
+    .news__title h3 {
+        font-size: 24px;
+    }
+}
