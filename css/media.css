@@ -33,6 +33,10 @@
         display: block !important;
     }
 
+    .article__content-right {
+        width: 100%;
+    }
+
     .top-banner.mobile-block {
         padding: 0;
         margin: 0;
@@ -158,5 +162,28 @@
 
     .news__title h3 {
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .article__title {
+        font-size: 14px;
+    }
+
+    .article__next i {
+        font-size: 30px;
+    }
+
+    .article__rec {
+        flex-wrap: wrap;
+    }
+
+    .article__rec-block {
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .article__rec-block img {
+        display: none;
     }
 }
